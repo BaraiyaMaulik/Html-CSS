@@ -1,0 +1,172 @@
+body{
+    height:3000px;
+}
+.btn-abs{
+    position:absolute;
+    top:20px;
+    right:20px;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    font-family: Arial;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+}
+.bottom-right{
+    position:fixed;
+    bottom:30px;
+    right:40px;
+    width:320px;
+    height:180px;
+    background-color:rgb(124, 108, 108);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.bottom-right1{
+    position:fixed;
+    bottom:30px;
+    right:40px;
+    width:320px;
+    height:180px;
+    background-color:rgb(124, 108, 108);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.btn-abs-close{
+    position:absolute;
+    top:-15px;
+    left:-15px;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    font-family: Arial;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    border:none;
+}
+.bottom-right2{
+    position:fixed;
+    bottom:30px;
+    right:40px;
+    width:320px;
+    height:180px;
+    background-color:rgb(124, 108, 108);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.btn-abs-close1{
+    position:absolute;
+    top:-15px;
+    left:-15px;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    font-family: Arial;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    border:none;
+}
+.video-time{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    background-color:black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.shirt-main-container{
+    position:relative;
+    display:inline-block;
+    top:20px;
+    left:30px;
+}
+.shirt-img{
+    width:500px;
+    height:500px;
+    object-fit: cover;
+}
+.offer{
+    position:absolute;
+    top:10px;
+    right:0px;
+    font-size:18px;
+    background-color: black;
+    color:white;
+    font-family:Arial;
+    font-weight:bold;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.shirt-main-container1{
+    position:relative;
+    display:inline-block;
+    top:20px;
+    left:30px;
+}
+.shirt-img1{
+    width:500px;
+    height:500px;
+    object-fit: cover;
+}
+.offer1{
+    position:absolute;
+    top:10px;
+    right:0px;
+    font-size:18px;
+    background-color: black;
+    color:white;
+    font-family:Arial;
+    font-weight:bold;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card-div{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    height:120px;
+    background-color: rgba(255, 255, 255, 0.8);
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.card-btn{
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family:Arial;
+    font-weight:bold;
+}

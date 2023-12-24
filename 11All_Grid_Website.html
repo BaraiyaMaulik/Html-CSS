@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>11All_Grid_Website</title>
+    <style>
+        .container-grid {
+            display: grid;
+            grid-template-columns: 200px 75px;
+            margin-bottom: 5px;
+        }
+
+        .px200-div {
+            background-color: #4550ec;
+        }
+
+        .px75-div {
+            background-color: pink;
+        }
+
+        .container-grid1 {
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+            margin-bottom: 5px;
+        }
+
+        .col-div {
+            background-color: #4550ec;
+        }
+
+        .col2-div {
+            background-color: pink;
+        }
+
+        .col3-div {
+            background-color: #4550ec;
+        }
+
+        .container-grid2 {
+            display: grid;
+            grid-template-columns: 75px 75px 75px 75px;
+            column-gap: 20px;
+            row-gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .col-div {
+            background-color: pink;
+        }
+
+        .card-design-head-grid{
+            display:grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap:15px;
+        }
+        .card-design{
+            width: 200px;
+            margin-left: 5px;
+            box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.911);
+        }
+        .cat-img1 {
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            margin-bottom: 5px;
+        }
+
+        .profile-card-div {
+            display: grid;
+            grid-template-columns: 30px 1fr;
+            align-items:center;
+            column-gap: 7px;
+        }
+
+        .dog2-img-card {
+            width: 30px;
+            height: 30px;
+            border-radius: 18px;
+            vertical-align: middle;
+            object-fit: cover;
+            padding-left: 3px;
+            padding-right: 5px;
+            padding-top: 3px;
+            padding-bottom: 5px;
+        }
+
+        .mutual-frnd{
+            font-size: 14px;
+            color: grey;
+            vertical-align: middle;
+        }
+
+        .add-button {
+            background-color: rgb(11, 11, 184);
+            color: white;
+            border: none;
+            font-weight: bold;
+            border-radius: 3px;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin-left:3px;
+            margin-bottom:5px;
+            cursor: pointer;
+        }
+
+        .name-p {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .name-p-div {
+            padding-left: 4px;
+            padding-top: 2px; 
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="container-grid">
+        <div class="px200-div">200px</div>
+        <div class="px75-div">75px</div>
+    </div>
+    <div class="container-grid1">
+        <div class="col-div">col</div>
+        <div class="col2-div">col2</div>
+        <div class="col3-div">col3</div>
+    </div>
+    <div class="container-grid2">
+        <div class="col-div">col1</div>
+        <div class="col-div">col2</div>
+        <div class="col-div">col3</div>
+        <div class="col-div">col4</div>
+        <div class="col-div">col1</div>
+        <div class="col-div">col2</div>
+        <div class="col-div">col3</div>
+        <div class="col-div">col4</div>
+    </div>
+
+    <div class="card-design-head-grid">
+        <div class="card-design">
+            <div class="cat-img1-div">
+                <img class="cat-img1" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\cat2.jpg">
+            </div>
+            <div class="name-p-div">
+                <p class="name-p">Oliver</p>
+            </div>
+            <div class="profile-card-div">
+                    <img class="dog2-img-card" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\dog2.jpg">
+                    <p class="mutual-frnd">2 mutual friends</p>
+            </div>
+            <div class="add-button-div">
+                <button class="add-button">Add Friend</button>
+            </div>
+        </div>
+        <div class="card-design">
+            <div class="cat-img1-div">
+                <img class="cat-img1" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\dog.jpg">
+            </div>
+            <div class="name-p-div">
+                <p class="name-p">Mimi</p>
+            </div>
+            <div class="profile-card-div">
+                <div class="dog2-img-card-div">
+                    <img class="dog2-img-card" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\dog2.jpg">
+                </div>
+                <div class="mutual-frnd-div">
+                    <p class="mutual-frnd">3 mutual friends</p>
+                </div>
+            </div>
+            <div class="add-button-div">
+                <button class="add-button">Add Friend</button>
+            </div>
+        </div>
+        <div class="card-design">
+            <div class="cat-img1-div">
+                <img class="cat-img1" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\cat.jpg">
+            </div>
+            <div class="name-p-div">
+                <p class="name-p">Rex</p>
+            </div>
+            <div class="profile-card-div">
+                <div class="dog2-img-card-div">
+                    <img class="dog2-img-card" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\dog2.jpg">
+                </div>
+                <div class="mutual-frnd-div">
+                    <p class="mutual-frnd">4 mutual friends</p>
+                </div>
+            </div>
+            <div class="add-button-div">
+                <button class="add-button">Add Friend</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

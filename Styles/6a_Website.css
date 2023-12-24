@@ -1,0 +1,27 @@
+
+.arial-5g {
+    font-family: Roboto;
+}
+
+.freecode {
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.tweet_freecode {
+    color: grey;
+}
+
+.heading {
+    width: 500px;
+    line-height: 25px;
+}
+
+.tweet-p {
+    width: 500px;
+    line-height: 25px;
+}
+.tweet-span{
+    color:blue;
+}
+

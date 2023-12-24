@@ -1,0 +1,386 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Exercise 10 Nested Layouts Div</title>
+    <style>
+        .cat-card {
+            display: inline-block;
+            vertical-align: middle;
+            padding-right: 13px;
+            width: 150px;
+        }
+
+        .cat-card1 {
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+
+        .profilepic-img-card {
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+
+        .twitter-div {
+            width: 400px;
+            /* height: 290px; */
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 3px;
+            border-color: grey;
+            box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+            padding-left: 13px;
+            padding-top: 5px;
+            padding-bottom: -9px;
+            margin-bottom: 8px;
+        }
+
+        .dog-div {
+            margin-bottom: 8px;
+        }
+
+
+        .profilepic-img {
+            width: 56px;
+            height: 55px;
+            border-radius: 30px;
+            vertical-align: middle;
+            object-fit: cover;
+            padding-left: 3px;
+            padding-right: 5px;
+            padding-top: 3px;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-family: Arial;
+            vertical-align: middle;
+        }
+
+        .oliver-p {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .cat-p {
+            font-size: 13px;
+            color: grey;
+            margin-top: -5px;
+            margin-bottom: -5px;
+        }
+
+        .popular-p {
+            font-size: 13px;
+            color: grey;
+        }
+
+        .follow-button {
+            color: white;
+            background-color: blue;
+            font-weight: bold;
+            border: none;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 15px;
+            vertical-align: middle;
+            border-radius: 6px;
+        }
+
+        .superSimpleDev-div {
+            width: 400px;
+            /* height: 290px; */
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 3px;
+            border-color: grey;
+            box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+            padding-left: 13px;
+            padding-top: 5px;
+            padding-bottom: -9px;
+            margin-bottom: 8px;
+        }
+
+        .video-card-img,
+        .v-discription-card {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .video-card-img {
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .v-discription-card {
+            width: 250px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .video-title,
+        .author,
+        .stats {
+            width: 290px;
+            font-family: Arial;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+        }
+
+        .video-title {
+            font-size: 17px;
+            font-weight: bold;
+            line-height: -6px;
+            padding-bottom: 10px;
+        }
+
+        .author {
+            font-size: 16px;
+            color: grey;
+            padding-bottom: 10px;
+        }
+
+        .stats {
+            font-size: 16px;
+            color: grey;
+        }
+
+        .superSimpleDev-head {
+            margin-bottom: 10px;
+        }
+
+        .cat-img1 {
+            height: 160px;
+            width: 200px;
+            object-fit: cover;
+            padding-bottom: 5px;
+        }
+
+        .dog2-img-card-div,
+        .mutual-frnd-div {
+            display: inline-block;
+        }
+
+        .dog2-img-card {
+            width: 30px;
+            height: 30px;
+            border-radius: 18px;
+            vertical-align: middle;
+            object-fit: cover;
+            padding-left: 3px;
+            padding-right: 5px;
+            padding-top: 3px;
+            padding-bottom: 5px;
+        }
+
+        .mutual-frnd{
+            font-size: 14px;
+            color: grey;
+            vertical-align: middle;
+        }
+
+        .add-button {
+            background-color: rgb(11, 11, 184);
+            color: white;
+            border: none;
+            font-weight: bold;
+            border-radius: 3px;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin-left:3px;
+            margin-bottom:5px;
+        }
+
+        .name-p {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .name-p-div {
+            padding-left: 4px;
+            padding-top: 2px;
+        }
+        .card-design{
+            display: inline-block;
+            margin-left: 5px;
+            box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.911);
+        }   
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="twitter-div">
+            <div class="profilepic-img-card"><img class="profilepic-img"
+                    src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\cat.jpg"></div>
+            <div class="cat-card">
+                <p class="oliver-p">Oliver</p>
+                <p class="cat-p">the cat</p>
+                <p class="popular-p">popular</p>
+            </div>
+            <div class="cat-card1">
+                <button class="follow-button">Follow</button>
+            </div>
+        </div>
+        <div class="cat-div">
+            <div class="profilepic-img-card"><img class="profilepic-img"
+                    src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\cat.jpg"></div>
+            <div class="cat-card">
+                <p class="oliver-p">Oliver</p>
+                <p class="cat-p">the cat</p>
+                <p class="popular-p">popular</p>
+            </div>
+            <div class="cat-card1">
+                <button class="follow-button">Follow</button>
+            </div>
+        </div>
+        <div class="cat2-div">
+            <div class="profilepic-img-card"><img class="profilepic-img"
+                    src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\cat2.jpg"></div>
+            <div class="cat-card">
+                <p class="oliver-p">Mimi</p>
+                <p class="cat-p">Sleepy Cat</p>
+                <p class="popular-p">popular</p>
+            </div>
+            <div class="cat-card1">
+                <button class="follow-button">Follow</button>
+            </div>
+        </div>
+        <div class="dog-div">
+            <div class="profilepic-img-card"><img class="profilepic-img"
+                    src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\dog.jpg"></div>
+            <div class="cat-card">
+                <p class="oliver-p">Rex</p>
+                <p class="cat-p">Happy Bulldog</p>
+                <p class="popular-p">popular</p>
+            </div>
+            <div class="cat-card1">
+                <button class="follow-button">Follow</button>
+            </div>
+        </div>
+        <div class="superSimpleDev-head">
+            <div class="supersimpledev-div">
+                <div class="video-card-img">
+                    <img class="selftaught-img"
+                        src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\selftaught.webp">
+                </div>
+                <div class="v-discription-card">
+                    <div>
+                        <p class="video-title">How to compete against CS degrees (as a self-taught dev)</p>
+                    </div>
+                    <div>
+                        <p class="author">SuperSimpleDev</p>
+                    </div>
+                    <div>
+                        <p class="stats">1.5k views &#183;11 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="supersimpledev-div">
+                <div class="video-card-img">
+                    <img class="selftaught-img" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\language.webp">
+                </div>
+                <div class="v-discription-card">
+                    <div>
+                        <p class="video-title">Which programming language to learn first with 2022 (with charts)</p>
+                    </div>
+                    <div>
+                        <p class="author">SuperSimpleDev</p>
+                    </div>
+                    <div>
+                        <p class="stats">5.7k views &#183;4 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="supersimpledev-div">
+                <div class="video-card-img">
+                    <img class="selftaught-img" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\frontend.webp">
+                </div>
+                <div class="v-discription-card">
+                    <div>
+                        <p class="video-title">Frontend web development - a complete course overview (2021)</p>
+                    </div>
+                    <div>
+                        <p class="author">SuperSimpleDev</p>
+                    </div>
+                    <div>
+                        <p class="stats">1k views &#183;4 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-design-head">
+        <div class="card-design">
+            <div class="cat-img1-div">
+                <img class="cat-img1" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\cat2.jpg">
+            </div>
+            <div class="name-p-div">
+                <p class="name-p">Oliver</p>
+            </div>
+            <div class="profile-card-div">
+                <div class="dog2-img-card-div">
+                    <img class="dog2-img-card" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\dog2.jpg">
+                </div>
+                <div class="mutual-frnd-div">
+                    <p class="mutual-frnd">2 mutual friends</p>
+                </div>
+            </div>
+            <div class="add-button-div">
+                <button class="add-button">Add Friend</button>
+            </div>
+        </div>
+        <div class="card-design">
+            <div class="cat-img1-div">
+                <img class="cat-img1" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\dog.jpg">
+            </div>
+            <div class="name-p-div">
+                <p class="name-p">Mimi</p>
+            </div>
+            <div class="profile-card-div">
+                <div class="dog2-img-card-div">
+                    <img class="dog2-img-card" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\dog2.jpg">
+                </div>
+                <div class="mutual-frnd-div">
+                    <p class="mutual-frnd">3 mutual friends</p>
+                </div>
+            </div>
+            <div class="add-button-div">
+                <button class="add-button">Add Friend</button>
+            </div>
+        </div>
+        <div class="card-design">
+            <div class="cat-img1-div">
+                <img class="cat-img1" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\cat.jpg">
+            </div>
+            <div class="name-p-div">
+                <p class="name-p">Rex</p>
+            </div>
+            <div class="profile-card-div">
+                <div class="dog2-img-card-div">
+                    <img class="dog2-img-card" src="C:\Users\Maulik\Desktop\HTML-CSS Course\Thumbnails\dog2.jpg">
+                </div>
+                <div class="mutual-frnd-div">
+                    <p class="mutual-frnd">4 mutual friends</p>
+                </div>
+            </div>
+            <div class="add-button-div">
+                <button class="add-button">Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
